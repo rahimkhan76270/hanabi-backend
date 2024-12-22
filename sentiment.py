@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 
-model_name = "tabularisai/multilingual-sentiment-analysis"
+model_name = "ashok2216/gpt2-amazon-sentiment-classifier-V1.0"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
