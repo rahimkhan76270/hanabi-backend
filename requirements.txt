@@ -1,6 +1,5 @@
 fastapi
 uvicorn
-transformers
 python-dotenv
 pyjwt
 bcrypt
@@ -9,3 +8,4 @@ psycopg2-binary
 torch --index-url https://download.pytorch.org/whl/cpu
 pydantic[email]
 python-multipart
+transformers
